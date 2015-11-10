@@ -5,20 +5,20 @@
     <Properties/>
     <AssignVariable>
         <Name>dataStoreOrgName</Name>
-      <Ref>accesstoken.appServicesOrgName</Ref>
+        <Ref>accesstoken.appServicesOrgName</Ref>
     </AssignVariable>
     <AssignVariable>
         <Name>dataStoreAppName</Name>
-      <Ref>accesstoken.appServicesAppName</Ref>
+        <Ref>accesstoken.appServicesAppName</Ref>
     </AssignVariable>
     <AssignVariable>
         <Name>dataStoreAppConsumerKey</Name>
-      <Ref>accesstoken.appServicesConsumerKey</Ref>
+        <Ref>accesstoken.appServicesConsumerKey</Ref>
     </AssignVariable>
-  <AssignVariable>
-    <Name>dataStoreAccessToken</Name>
-    <Ref>accesstoken.appServicesAccessToken</Ref>
-  </AssignVariable>
+    <AssignVariable>
+        <Name>dataStoreAccessToken</Name>
+        <Ref>accesstoken.appServicesAccessToken</Ref>
+    </AssignVariable>
     <IgnoreUnresolvedVariables>true</IgnoreUnresolvedVariables>
     <AssignTo createNew="false" transport="http" type="request"/>
 </AssignMessage>

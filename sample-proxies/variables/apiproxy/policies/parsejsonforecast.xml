@@ -6,7 +6,7 @@
     <Variable name="description"> 
       <JSONPath>$.rss.channel.description</JSONPath> 
     </Variable> 
-    <Variable name="condition"> 
+    <Variable name="humidity">
       <JSONPath>$.rss.atmosphere.humidity</JSONPath> 
     </Variable> 
   </JSONPayload> 

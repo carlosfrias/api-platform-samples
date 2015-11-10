@@ -1,9 +1,9 @@
 <RaiseFault name="sample.loginpage.webserverflow">
- <IgnoreUnresolvedVariables>true</IgnoreUnresolvedVariables>
- <FaultResponse>
-   <Set>
-     <Payload contentType="text/html">
-         <![CDATA[
+    <IgnoreUnresolvedVariables>true</IgnoreUnresolvedVariables>
+    <FaultResponse>
+        <Set>
+            <Payload contentType="text/html">
+                <![CDATA[
          <html>
 			<head>
 			<title>Sample Login Page for User Consent</title>
@@ -49,9 +49,9 @@
 			</body>
 			</html>
 		]]>
-     </Payload>
-     <StatusCode>200</StatusCode>
-     <ReasonPhrase>Sample Login Page</ReasonPhrase>
-   </Set>
- </FaultResponse>
+            </Payload>
+            <StatusCode>200</StatusCode>
+            <ReasonPhrase>Sample Login Page</ReasonPhrase>
+        </Set>
+    </FaultResponse>
 </RaiseFault>

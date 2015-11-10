@@ -1,0 +1,16 @@
+<APIProxy revision="1" name="No-Target">
+    <ConfigurationVersion majorVersion="4" minorVersion="0"/>
+    <CreatedAt>"1446845671723"</CreatedAt>
+    <CreatedBy>"carlos.frias.01@gmail.com"</CreatedBy>
+    <Description>"Generated Apigee Api Proxy Template"</Description>
+    <DisplayName>"Generated Apigee Proxy Project with No Target URL"</DisplayName>
+    <LastModifiedAt>"1446845671723"</LastModifiedAt>
+    <LastModifiedBy>"carlos.frias.01@gmail.com"</LastModifiedBy>
+    <Policies/>
+    <ProxyEndpoints>
+        <ProxyEndpoint>default</ProxyEndpoint>
+    </ProxyEndpoints>
+    <Resources/>
+    <TargetServers/>
+    <TargetEndpoints/>
+</APIProxy>

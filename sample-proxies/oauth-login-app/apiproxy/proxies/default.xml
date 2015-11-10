@@ -63,7 +63,7 @@
     </Flows>
     <PreFlow name="PreFlow" />
     <HTTPProxyConnection>
-        <BasePath>/oauth</BasePath>
+        <BasePath>/oauth-login-app</BasePath>
         <Properties />
         <VirtualHost>secure</VirtualHost>
     </HTTPProxyConnection>

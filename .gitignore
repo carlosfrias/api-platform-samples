@@ -6,3 +6,8 @@
 -./sample-proxies/oauth-advanced/webserver-app/apiproxy/policies/HTMLIndex.xml
 -./sample-proxies/oauth-advanced/login-app/apiproxy/resources/node/config/config.js
 *.DS_Store
+build
+.gradle
+.lazybones
+*.iml
+.idea

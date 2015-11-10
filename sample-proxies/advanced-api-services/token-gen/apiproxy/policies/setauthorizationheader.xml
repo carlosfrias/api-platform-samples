@@ -5,7 +5,7 @@
     <Properties/>
     <AssignVariable>
         <Name>request.header.Authorization</Name>
-      <Ref>authorizationString</Ref>
+        <Ref>authorizationString</Ref>
     </AssignVariable>
     <IgnoreUnresolvedVariables>true</IgnoreUnresolvedVariables>
     <AssignTo createNew="false" transport="http" type="request"/>

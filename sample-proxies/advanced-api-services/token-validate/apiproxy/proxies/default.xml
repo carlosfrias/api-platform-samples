@@ -52,7 +52,7 @@
                 <Step>
                     <FaultRules/>
                     <Name>fault_invalidcredentials</Name>
-                    <Condition>auth_access_token is null</Condition>
+                    <Condition>(auth_client_id is null and auth_client_secret is null) or (auth_access_token is null)</Condition>
                 </Step>
                 <Step>
                     <FaultRules/>
@@ -81,7 +81,7 @@
         <Response/>
     </PostFlow>
     <HTTPProxyConnection>
-        <BasePath>/v1/datastore</BasePath>
+        <BasePath>/token-validate</BasePath>
         <VirtualHost>default</VirtualHost>
     </HTTPProxyConnection>
     <RouteRule name="default">

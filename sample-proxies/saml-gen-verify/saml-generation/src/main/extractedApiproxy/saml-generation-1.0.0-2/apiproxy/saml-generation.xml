@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<APIProxy revision="2" name="saml-generation">
+    <ConfigurationVersion majorVersion="4" minorVersion="0"/>
+    <CreatedAt>1447090534687</CreatedAt>
+    <CreatedBy>carlos.frias.01@gmail.com</CreatedBy>
+    <Description>&quot;Generated Apigee Api Proxy Template&quot;</Description>
+    <DisplayName>&quot;Generated Apigee Proxy Project with No Target URL&quot;</DisplayName>
+    <LastModifiedAt>1447172245004</LastModifiedAt>
+    <LastModifiedBy>carlos.frias.01@gmail.com</LastModifiedBy>
+    <Policies>
+        <Policy>Generate-SAML-Assertion</Policy>
+    </Policies>
+    <ProxyEndpoints>
+        <ProxyEndpoint>default</ProxyEndpoint>
+    </ProxyEndpoints>
+    <Resources/>
+    <TargetServers/>
+    <TargetEndpoints/>
+    <validate>false</validate>
+</APIProxy>

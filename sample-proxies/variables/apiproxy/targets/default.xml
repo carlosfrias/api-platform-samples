@@ -1,5 +1,5 @@
 <TargetEndpoint name="default">
   <HTTPTargetConnection>
-    <URL>http://weather.yahooapis.com</URL>
+    <URL>http://weather.yahooapis.com/forecastrss</URL>
   </HTTPTargetConnection>
 </TargetEndpoint>
